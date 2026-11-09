@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/beats", "destination": "https://YOUR-ADDRESS.vercel.app/beats" },
+    { "source": "/beats/:path*", "destination": "https://YOUR-ADDRESS.vercel.app/beats/:path*" }
+  ]
+}
